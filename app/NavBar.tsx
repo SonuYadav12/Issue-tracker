@@ -6,7 +6,7 @@ import React from 'react'
 import { AiFillBug } from "react-icons/ai"
 import classnames from "classnames"
 
-const NavBar = () => {
+const   NavBar = () => {
     const currentPath = usePathname();
     console.log(currentPath)
     const links = [
